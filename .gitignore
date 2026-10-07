@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets
+data/
+dataset/
+datasets/
+
+# Model files
+*.h5
+*.keras
+*.pth
+*.pt
+*.onnx
+
+# Training outputs
+logs/
+runs/
+checkpoints/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
