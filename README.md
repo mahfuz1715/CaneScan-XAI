@@ -122,11 +122,11 @@ CaneScan-XAI/
 ├── requirements.txt
 ├── .gitignore
 ├── notebooks/
-│   ├── baseline experiments
-│   ├── attention experiments
-│   └── ensemble experiments
+│   ├── 01_pretrained_cnn_baselines.ipynb
+│   ├── 02_se_cbam_attention.ipynb
+│   └── 03_weighted_ensemble.ipynb
 ├── app/
-│   └── Streamlit prototype
+│   └── app.py
 └── paper/
     └── README.md
 ```
